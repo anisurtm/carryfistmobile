@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook - log in or sign up</title>
+   <link rel="stylesheet" href="style.css">
+   <style>
+    
+.fbpic {
+    margin-left: 120px;
+    margin-top: 185px;
+    height: 70px;
+}
+.inpt1 {
+    padding:17px;
+    width: 250px;
+    margin-top: 14px;
+    border-radius: 8px;
+    border: 1px solid #c9cdd3;
+}
+.allt {
+    display: flex;
+}
+.inputall{
+    align-items: center;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-left: 2px;
+    margin:15% 20% 0% 15% ;
+    border-radius: 12px;
+    /* margin-top:15px ; */
+    background-color: #FFFFFF;
+    box-shadow: rgba(255, 255, 255, 0.871) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;;
+}
+.inpt2 {
+    margin-top: 20px;
+    background-color: #FE6803;
+    font-size: 15px;
+    border: #1877F2;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 15px;
+
+}
+.sphi {
+    border: .1px solid;
+    margin-top: 15px;
+    color: #FE6803;
+    width: 300px;
+    
+}
+.bttt3{color: white;
+    height: 45px;
+    width: 200px;
+    background-color: #FE6803;
+    font-weight: bold;
+    font-size: 17px;
+    margin-bottom: 10px;
+    border: #42ba2a;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+.sp2  {font-weight: bold;
+    
+}
+.inputall a{
+    
+    text-decoration: none;
+    color: #FE6803;
+}
+.forgetpass{
+    margin-top: 15px; 
+}
+.Createnewaccvount{
+    cursor: pointer;
+}
+   </style>
+</head>
+<body>
+   <div class="allt">
+    <div class="inputall">
+      
+      <input class="inpt1" type="text" placeholder="Email address or phone number">
+      <span id="inpt2"></span>
+      <input class="inpt1" type="text" placeholder="Password">
+      <div><button class="inpt2" onclick="document.getElementById('inpt2').innerText='*Incorrect number/Password'">Login</button></div>
+      <div class="forgetpass">
+        <a href="">Forgotten password?</a>
+      </div>
+      <hr class="sphi" />
+      <div class="forgetpass">
+        
+        <a class="Createnewaccvount" href="sigin.html"><button class="bttt3">Create new account</button></a>
+
+      </div>
+    </div>   
+   </div>
+    
+</body>
+</html>
