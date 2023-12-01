@@ -23,9 +23,9 @@ body{
 }
 
 .cfblk {
- 
-  height: 80px;
-  width: 190px;
+
+  height: 50px;
+  width: 150px;
 }
 .d1{
   border: 2px solid white;
@@ -44,7 +44,7 @@ body{
  }
  .dot2 {
   border: 1px dashed white;
-  margin: 60px 30px;
+  margin: 10px 30px;
  }
  .xpress {
   text-align: center;
@@ -105,6 +105,9 @@ body{
   border-radius: 12px;
   margin-top: px;
  }
+ .ancor1{
+  color: #F4F6F8;
+ }
 
  .buttom1 {
   margin-right: 30px;
@@ -159,13 +162,11 @@ font-size: 15px;
 padding-left: 10px;
 
 }
-
-
-.bt4 { padding-right: 150px;
-margin-left: 50px;
-border-radius:10px ;
-
+.displaygr{
+  margin-top: 15px;
 }
+
+
 .linkop4{
 text-align: center;
 
@@ -180,15 +181,7 @@ border: 2px solid black;
 border-radius: 100px;
 
 }
-/* .sdrt {
-  align-items: center;
-  margin-top: 30px;
-  margin-left: 50px;
-  margin-right: 110px;
-  border-radius: 9px;
-  border: 2px solid rgb(203, 199, 199);
-  background-color: rgb(174, 173, 173);
-} */
+
 .sdrt {
 margin-top: 30px;
 margin-left: 15%;
